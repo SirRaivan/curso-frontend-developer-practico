@@ -254,9 +254,13 @@
   .product-detail-close:hover {
     cursor: pointer;
   }
+  #productDetail{
+    padding-bottom: 24px;
+    position: fixed;
+  }
   #productDetail > img:nth-child(2) {
     width: 100%;
-    height: 360px;
+    height: 310px;
     object-fit: cover;
     border-radius: 0 0 20px 20px;
   }
