@@ -166,7 +166,9 @@
     position: absolute;
     right: 0;
   }
-  #shoppingCarContainer {
+  
+  .my-order-content{
+    box-sizing: border-box;
     padding: 0 24px;
   }
   .title-container {
@@ -237,7 +239,7 @@
     height: 50px;
   }
   /*Product detail*/
-  
+
   .product-detail-close {
     background: var(--white);
     width: 14px;
